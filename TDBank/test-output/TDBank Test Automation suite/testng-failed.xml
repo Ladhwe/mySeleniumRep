@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TDBank Test Automation suite]">
+  <test thread-count="5" name="TDBank Test Cases(failed)">
+    <classes>
+      <class name="com.tdbank.qa.testcases.OnlineLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="enterLoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tdbank.qa.testcases.OnlineLoginTest -->
+    </classes>
+  </test> <!-- TDBank Test Cases(failed) -->
+</suite> <!-- Failed suite [TDBank Test Automation suite] -->

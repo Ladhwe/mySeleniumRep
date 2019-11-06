@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="4" time="0">
+<testcase classname="Bookshelf Login Feature" name="Bookshelf Login Test Scenario" time="0">
+<system-out><![CDATA[Given bookshelf user is on bookshelf login page.............................skipped
+When title of login page is VitalSource Bookshelf Sign In...................skipped
+Then bookshelf user enters "sm_sk_20191101@yopmail.com" and "hb!7t23hN6WJvWq".skipped
+Then user clicks on SignIn button...........................................skipped
+Then bookshelf home page should be displayed................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookshelf Login Feature" name="Bookshelf Login Test by providing only user email and blank password" time="0">
+<skipped><![CDATA[Given bookshelf user is on bookshelf login page.............................skipped
+When title of login page is VitalSource Bookshelf Sign In...................skipped
+Then bookshelf user enters "sm_sk_20191101@yopmail.com" and ""..............skipped
+Then user clicks on SignIn button...........................................skipped
+Then bookshelf home page should be displayed................................skipped
+Then verify the message please enter the password...........................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Bookshelf Login Feature" name="Bookshelf Login Test by providing blank email and by entering password" time="0">
+<skipped><![CDATA[Given bookshelf user is on bookshelf login page.............................skipped
+When title of login page is VitalSource Bookshelf Sign In...................skipped
+Then bookshelf user enters "" and "hb!7t23hN6WJvWq".........................skipped
+Then user clicks on SignIn button...........................................skipped
+Then bookshelf home page should be displayed................................skipped
+Then verify the message please enter an email address.......................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Bookshelf Login Feature" name="Bookshelf Login Test by providing blank email and blank password" time="0">
+<skipped><![CDATA[Given bookshelf user is on bookshelf login page.............................skipped
+When title of login page is VitalSource Bookshelf Sign In...................skipped
+Then bookshelf user enters "" and ""........................................skipped
+Then user clicks on SignIn button...........................................skipped
+Then bookshelf home page should be displayed................................skipped
+Then verify both the messages...............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Bookshelf Login Test Scenario",
+        "description": "",
+        "id": "bookshelf-login-feature;bookshelf-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "bookshelf user is on bookshelf login page",
+            "match": {
+              "location": "Login.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of login page is VitalSource Bookshelf Sign In",
+            "match": {
+              "location": "Login.title_of_login_page_is_VitalSource_Bookshelf_Sign_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "bookshelf user enters \"sm_sk_20191101@yopmail.com\" and \"hb!7t23hN6WJvWq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sm_sk_20191101@yopmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "hb!7t23hN6WJvWq",
+                  "offset": 56
+                }
+              ],
+              "location": "Login.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "Login.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "bookshelf home page should be displayed",
+            "match": {
+              "location": "Login.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Bookshelf Login Test by providing only user email and blank password",
+        "description": "",
+        "id": "bookshelf-login-feature;bookshelf-login-test-by-providing-only-user-email-and-blank-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "bookshelf user is on bookshelf login page",
+            "match": {
+              "location": "Login.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "title of login page is VitalSource Bookshelf Sign In",
+            "match": {
+              "location": "Login.title_of_login_page_is_VitalSource_Bookshelf_Sign_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "bookshelf user enters \"sm_sk_20191101@yopmail.com\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sm_sk_20191101@yopmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "",
+                  "offset": 56
+                }
+              ],
+              "location": "Login.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "Login.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "bookshelf home page should be displayed",
+            "match": {
+              "location": "Login.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "verify the message please enter the password",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Bookshelf Login Test by providing blank email and by entering password",
+        "description": "",
+        "id": "bookshelf-login-feature;bookshelf-login-test-by-providing-blank-email-and-by-entering-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "bookshelf user is on bookshelf login page",
+            "match": {
+              "location": "Login.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "title of login page is VitalSource Bookshelf Sign In",
+            "match": {
+              "location": "Login.title_of_login_page_is_VitalSource_Bookshelf_Sign_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "bookshelf user enters \"\" and \"hb!7t23hN6WJvWq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                },
+                {
+                  "val": "hb!7t23hN6WJvWq",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "Login.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "bookshelf home page should be displayed",
+            "match": {
+              "location": "Login.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "verify the message please enter an email address",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Bookshelf Login Test by providing blank email and blank password",
+        "description": "",
+        "id": "bookshelf-login-feature;bookshelf-login-test-by-providing-blank-email-and-blank-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "bookshelf user is on bookshelf login page",
+            "match": {
+              "location": "Login.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "title of login page is VitalSource Bookshelf Sign In",
+            "match": {
+              "location": "Login.title_of_login_page_is_VitalSource_Bookshelf_Sign_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "bookshelf user enters \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                },
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "Login.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "bookshelf home page should be displayed",
+            "match": {
+              "location": "Login.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "verify both the messages",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bookshelf Login Feature",
+    "description": "",
+    "id": "bookshelf-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/hp/workspace/Bookshelf/src/main/java/features/bookshelflogin.feature"
+  }
+]
